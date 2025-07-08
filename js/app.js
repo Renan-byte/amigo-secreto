@@ -11,6 +11,7 @@ if (listaAmigos.textContent == ''){
 } else {
     listaAmigos.textContent = listaAmigos.textContent + ', ' + amigo.value;
 }
+amigo.value = '';
 
 }
 function sortear (){
